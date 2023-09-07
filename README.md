@@ -6,5 +6,8 @@ texts are provided exclusively in Russian.
 
 ----
 
-# pro-netregistry
-IP-addresses and VLANs Database for SOHO Networks
+# :ru: Реестр сетей и использования адресного пространства ЛВС #
+
+![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+
+----
