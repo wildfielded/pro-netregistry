@@ -10,4 +10,11 @@ texts are provided exclusively in Russian.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
 
+## Содержание ##
+
+[1. Условия задания](#условия-задания)    
+[2. Описание решения](#описание-решения)    
+[3. Результат](#результат)    
+[4. Инструкция по запуску проекта](#инструкция-по-запуску-проекта)    
+
 ----
