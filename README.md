@@ -19,7 +19,12 @@ texts are provided exclusively in Russian.
 
 ## Условия задания ##
 
-- Web-engine&nbsp;&mdash; Django.
+- В качестве основы web-engine&nbsp;&mdash; использовать Django.
+
+- В качестве СУБД&nbsp;&mdash; использовать SQLite. Для предполагаемого объёма
+данных его достаточно.
+
+- В качестве ORM-прокладки
 
 [:arrow_up: Содержание](#содержание)
 
