@@ -19,6 +19,8 @@ texts are provided exclusively in Russian.
 
 ## Условия задания ##
 
+- Web-engine&nbsp;&mdash; Django.
+
 [:arrow_up: Содержание](#содержание)
 
 ----
