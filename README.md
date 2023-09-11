@@ -70,6 +70,22 @@ texts are provided exclusively in Russian.
 
 ## Описание решения ##
 
+### Addrs ###
+
+```text
+    ip_addr     TEXT    IP адрес
+    status      TEXT    Статус (свободен/временно/используется)
+    fqdn        TEXT    DNS-имя
+    desc        TEXT    Описание
+    use_date    TEXT    Дата начала использования (для используемых адресов)
+    dept        TEXT    Ответственный (структурное подразделение)
+    comment     TEXT    Примечание
+    is_zabbix   BOOL    Подключение к Zabbix
+    is_siem     BOOL    Подключение к SIEM
+    is_dhcp     BOOL    Выдаётся по DHCP или постоянный
+
+```
+
 [:arrow_up: Содержание](#содержание)
 
 ----
