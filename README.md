@@ -83,7 +83,19 @@ texts are provided exclusively in Russian.
     is_zabbix   BOOL    Подключение к Zabbix
     is_siem     BOOL    Подключение к SIEM
     is_dhcp     BOOL    Выдаётся по DHCP или постоянный
+```
 
+### Vlans ###
+
+```text
+    vlan_addr   TEXT        Подсеть (Адрес сети)
+    vlan_mask   TEXT        Маска подсети (dotted-decimal notation)
+    vlan_id     INTEGER     Номер VLAN
+    vlan_name   TEXT        Наименование VLAN
+    desc        TEXT        Описание
+    ip_used     INTEGER     Количество используемых адресов
+    ip_temp     INTEGER     Количество временно используемых адресов
+    ip_free     INTEGER     Количество свободных адресов (без адреса сети и broadcast-адреса)
 ```
 
 [:arrow_up: Содержание](#содержание)
