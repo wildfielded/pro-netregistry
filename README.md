@@ -72,10 +72,12 @@ texts are provided exclusively in Russian.
 
 ## Описание решения ##
 
+Две таблицы в базе данных:
+
 ### Addrs ###
 
 ```text
-    ip_addr     TEXT    IP адрес
+    ip_addr     TEXT    IP адрес (PRIMARY KEY)
     status      TEXT    Статус (свободен/временно/используется)
     fqdn        TEXT    DNS-имя
     desc        TEXT    Описание
@@ -90,14 +92,15 @@ texts are provided exclusively in Russian.
 ### Vlans ###
 
 ```text
+    vlan_id     INTEGER     Номер VLAN (PRIMARY KEY)
     vlan_addr   TEXT        Подсеть (Адрес сети)
     vlan_mask   TEXT        Маска подсети (dotted-decimal notation)
-    vlan_id     INTEGER     Номер VLAN
     vlan_name   TEXT        Наименование VLAN
     desc        TEXT        Описание
     ip_used     INTEGER     Количество используемых адресов
     ip_temp     INTEGER     Количество временно используемых адресов
-    ip_free     INTEGER     Количество свободных адресов (без адреса сети и broadcast-адреса)
+    ip_free     INTEGER     Количество свободных адресов
+                            (без адреса сети и broadcast-адреса)
 ```
 
 [:arrow_up: Содержание](#содержание)
