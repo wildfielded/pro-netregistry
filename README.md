@@ -61,6 +61,8 @@ texts are provided exclusively in Russian.
 - В качестве СУБД&nbsp;&mdash; использовать `SQLite`. Для предполагаемого объёма
 данных его достаточно.
 
+- Предусмотреть простой и лёгкий **dump** и **restore** базы по сети.
+
 - В качестве ORM-прокладки сделать выбор из вариантов: `django-orm`,
 `SQLAlchemy`, `psycopg2` или что-то ещё.
 
