@@ -66,6 +66,9 @@ texts are provided exclusively in Russian.
 - В качестве ORM-прокладки сделать выбор из вариантов: `django-orm`,
 `SQLAlchemy`, `psycopg2` или что-то ещё.
 
+- Основные роли пользователей в админке `Django`: Админ сайта,
+&laquo;писатель&raquo; и &laquo;читатель&raquo;.
+
 [:arrow_up: Содержание](#содержание)
 
 ----
